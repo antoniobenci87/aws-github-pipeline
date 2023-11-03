@@ -24,6 +24,6 @@ jobs:
       run: |
         aws deploy create-deployment \
         --application-name AppAntonio \
-        --deployment-group-name node-express-app-group \
+        --deployment-group-name DefinitivoGRP \
         --deployment-config-name CodeDeployDefault.OneAtATime \
         --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
