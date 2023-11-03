@@ -77,7 +77,7 @@ cd /home/ec2-user
 ```
 
 ```sh
-git clone https://github.com/saasscaleup/nodejs-aws-codedeploy-pipeline.git
+git clone https://github.com/antoniobenci87/aws-github-pipeline.git
 ```
 
 ### 5. Run node app.js  (Make sure everything working)
